@@ -1,0 +1,39 @@
+#game div {
+	border: 2px solid white;
+	height: 150px;
+	margin: 2px;
+	background-color: black;
+	transition: all 0.5s;
+	width: 28%;
+	flex-grow: 1;
+}
+body {
+	background-color: silver;
+}
+h1 {
+	text-align: center;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+header div {
+	margin: 6px;
+}
+
+#restart {
+  margin-left: 15px;
+}
+
+#game > div {
+	background-color: black;
+	transition: all 0.5s;
+	width: 25%;
+	flex-grow: 0;
+}
+#game {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
